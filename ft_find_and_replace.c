@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 static char		*repl_recur(char *buf, char *str, char *tf, char *tr)
 {
