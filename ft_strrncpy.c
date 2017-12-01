@@ -6,11 +6,11 @@
 /*   By: anazar <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/04 16:58:25 by anazar            #+#    #+#             */
-/*   Updated: 2017/08/20 15:04:05 by anazar           ###   ########.fr       */
+/*   Updated: 2017/11/30 21:07:30 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include <libft.h>
 
 void	ft_strrncpy(char *dest, char *src, int width)
 {
