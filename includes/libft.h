@@ -6,13 +6,15 @@
 /*   By: anazar <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 10:14:28 by anazar            #+#    #+#             */
-/*   Updated: 2017/09/27 13:54:19 by anazar           ###   ########.fr       */
+/*   Updated: 2017/11/30 21:16:30 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # define BUFF_SIZE 100
+# define DBG_INT(str, x) ft_putstr(str); ft_putnbr(x); ft_putchar('\n');
+# define DBG_CHAR(str, x) ft_putstr(str); ft_putchar(x); ft_putchar('\n');
 
 # include <string.h>
 # include <stdlib.h>
