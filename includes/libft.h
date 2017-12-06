@@ -18,6 +18,7 @@
 # define MIN(x, y) (x < y ? x : y )
 # define MAX(x, y) (x >= y ? x : y)
 # define ABS(x) (x >= 0 ? x : -x)
+# define PI 3.141592653
 
 # include <string.h>
 # include <stdlib.h>
