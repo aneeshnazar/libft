@@ -25,7 +25,7 @@ PART2 = ft_memalloc ft_memdel ft_strnew ft_strdel ft_strclr \
 BONUS = ft_lstnew ft_lstdelone ft_lstdel ft_lstadd ft_lstiter ft_lstmap
 ADDIT = ft_iswhitespace ft_split_by_function ft_split_by_delims ft_swap \
 		ft_isupper ft_islower ft_find_and_replace ft_find ft_trim_by_function \
-		ft_trim_by_delims ft_atoll get_next_line ft_min ft_max ft_strjoinfree \
+		ft_trim_by_delims ft_atoll get_next_line ft_strjoinfree \
 		ft_is_in ft_countif ft_strfncpy ft_strrncpy
 FILES = $(PART1) $(PART2) $(BONUS) $(ADDIT)
 MAINSRC = tst/main.c
