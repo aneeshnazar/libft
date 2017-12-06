@@ -15,6 +15,9 @@
 # define BUFF_SIZE 100
 # define DBG_INT(str, x) ft_putstr(str); ft_putnbr(x); ft_putchar('\n');
 # define DBG_CHAR(str, x) ft_putstr(str); ft_putchar(x); ft_putchar('\n');
+# define MIN(x, y) (x < y ? x : y )
+# define MAX(x, y) (x >= y ? x : y)
+# define ABS(x) (x >= 0 ? x : -x)
 
 # include <string.h>
 # include <stdlib.h>
@@ -189,10 +192,6 @@ char				*ft_strjoinfree(char *s1, char *s2);
 void				ft_strfncpy(char *dst, char *src, int len);
 
 void				ft_strrncpy(char *dst, char *src, int len);
-
-int					ft_max(int a, int b);
-
-int					ft_min(int a, int b);
 
 long long			ft_atoll(const char *str);
 
