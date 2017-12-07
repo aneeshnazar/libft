@@ -19,6 +19,7 @@
 # define MAX(x, y) (x >= y ? x : y)
 # define ABS(x) (x >= 0 ? x : -x)
 # define PI 3.141592653
+# define POW(x, y, o) (for(int i = 0; i < y; ++i) o *= x;)
 
 # include <string.h>
 # include <stdlib.h>
