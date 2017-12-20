@@ -6,7 +6,7 @@
 /*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 10:14:28 by anazar            #+#    #+#             */
-/*   Updated: 2017/12/07 18:05:56 by anazar           ###   ########.fr       */
+/*   Updated: 2017/12/19 21:12:06 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,9 @@
 # define PI 3.141592653
 # define POW(x, y, o) o = x; int p_it = 0; while(++p_it < y) o *= x;
 # define AVG(x, y) ((x + y) / 2.0)
+# define SWITCH(a, b) if (a) b;
+# define CASE(a, b) else if (a) b;
+# define DEFAULT(a) else a;
 
 # include <string.h>
 # include <stdlib.h>
