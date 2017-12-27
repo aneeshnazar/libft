@@ -6,7 +6,7 @@
 /*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 10:14:28 by anazar            #+#    #+#             */
-/*   Updated: 2017/12/19 21:12:06 by anazar           ###   ########.fr       */
+/*   Updated: 2017/12/26 15:42:09 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -200,6 +200,8 @@ void				ft_strfncpy(char *dst, char *src, int len);
 void				ft_strrncpy(char *dst, char *src, int len);
 
 long long			ft_atoll(const char *str);
+
+int					ft_general_validate(char *format, char *str);
 
 /*
 **	Get_next_line

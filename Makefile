@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: anazar <marvin@42.fr>                      +#+  +:+       +#+         #
+#    By: anazar <anazar@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/06/05 10:07:33 by anazar            #+#    #+#              #
-#    Updated: 2017/11/30 21:06:49 by anazar           ###   ########.fr        #
+#    Updated: 2017/12/26 15:42:58 by anazar           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ BONUS = ft_lstnew ft_lstdelone ft_lstdel ft_lstadd ft_lstiter ft_lstmap
 ADDIT = ft_iswhitespace ft_split_by_function ft_split_by_delims ft_swap \
 		ft_isupper ft_islower ft_find_and_replace ft_find ft_trim_by_function \
 		ft_trim_by_delims ft_atoll get_next_line ft_strjoinfree \
-		ft_is_in ft_countif ft_strfncpy ft_strrncpy
+		ft_is_in ft_countif ft_strfncpy ft_strrncpy ft_validate
 FILES = $(PART1) $(PART2) $(BONUS) $(ADDIT)
 MAINSRC = tst/main.c
 MAINOBJ = main.o
