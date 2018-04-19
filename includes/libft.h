@@ -28,6 +28,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdarg.h>
 
 /*
  **Part 1
@@ -202,6 +203,8 @@ void				ft_strrncpy(char *dst, char *src, int len);
 long long			ft_atoll(const char *str);
 
 int					ft_general_validate(char *format, char *str);
+
+int						ft_printf(const char *format, ...);
 
 /*
 **	Get_next_line

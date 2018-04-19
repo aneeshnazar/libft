@@ -27,13 +27,21 @@ ADDIT = ft_iswhitespace ft_split_by_function ft_split_by_delims ft_swap \
 		ft_isupper ft_islower ft_find_and_replace ft_find ft_trim_by_function \
 		ft_trim_by_delims ft_atoll get_next_line ft_strjoinfree \
 		ft_is_in ft_countif ft_strfncpy ft_strrncpy ft_validate
-FILES = $(PART1) $(PART2) $(BONUS) $(ADDIT)
+MAINFILES = $(PART1) $(PART2) $(BONUS) $(ADDIT)
+PRINTFILES = ft_printf get_format generate_table get_width \
+		set_type set_output set_tmp fix_sign handle \
+		utils check parse_utils1 parse_utils2 ft_jtoa \
+		ft_jutoa ft_ctos ft_wctos
+PRINTFDIR = printf/
+MAINDIR = src/
+SRCFILES = $(addprefix $(PRINTFDIR), $(PRINTFILES)) $(addprefix $(MAINDIR), $(MAINFILES))
+FILES = $(PRINTFILES) $(MAINFILES)
 MAINSRC = tst/main.c
 MAINOBJ = main.o
 TESTOUT = libtest
 LIB = ar rc
 FLAGS = -Wall -Werror -Wextra -I./includes/
-SRCS = $(patsubst %, %.c, $(FILES))
+SRCS = $(patsubst %, %.c, $(SRCFILES))
 OBJS = $(patsubst %, %.o, $(FILES))
 
 all:	$(NAME)
