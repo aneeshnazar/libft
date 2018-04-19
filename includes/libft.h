@@ -204,7 +204,7 @@ long long			ft_atoll(const char *str);
 
 int					ft_general_validate(char *format, char *str);
 
-int						ft_printf(const char *format, ...);
+int					ft_printf(const char *format, ...);
 
 /*
 **	Get_next_line

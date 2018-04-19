@@ -16,12 +16,8 @@ void	handle_zero(t_able *table)
 {
 	int	i;
 
-	//if (WIDTH != -1 && PRECISION != -1)
-	//	i = table->format.width - table->format.precision;
-	//else
-	//	i = 0;
-    i = (WIDTH != -1 && PRECISION != -1) ?
-        table->format.width - table->format.precision : 0;
+	i = (WIDTH != -1 && PRECISION != -1) ?
+	table->format.width - table->format.precision : 0;
 	if (ft_is_in(table->format.type, "dDioOuUxX") && table->format.f_zero)
 	{
 		while (table->output[i])

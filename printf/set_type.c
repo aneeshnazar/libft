@@ -36,7 +36,7 @@ void	set_int(t_able *table, va_list a_list)
 			table->format.length == L_SCHAR ||
 			table->format.length == L_SHORT)
 		table->data.d = va_arg(a_list, int);
-    else if (table->format.length == L_LLONG)
+	else if (table->format.length == L_LLONG)
 		table->data.lld = va_arg(a_list, long long);
 	else if (table->format.length == L_INTMAX)
 		table->data.jd = va_arg(a_list, intmax_t);
@@ -55,7 +55,7 @@ void		set_addr(t_able *table, va_list a_list)
 	table->data.p = va_arg(a_list, void *);
 }
 
-void	   set_char(t_able *table, va_list a_list)
+void		set_char(t_able *table, va_list a_list)
 {
 	if (table->format.type == '%')
 		table->data.c = '%';

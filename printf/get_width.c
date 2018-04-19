@@ -48,7 +48,7 @@ static int	get_precision(t_able *table)
 		return (ft_strlen(table->tmp));
 }
 
-char	get_sign(t_able *table)
+char		get_sign(t_able *table)
 {
 	if (ft_is_in(table->format.type, "dDi"))
 	{

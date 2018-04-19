@@ -12,7 +12,7 @@
 
 #include <ft_printf.h>
 
-void	parse_flags(t_format *t, char *format, int *start)
+void		parse_flags(t_format *t, char *format, int *start)
 {
 	while (ft_is_in(format[*start], "0-+ #"))
 	{

@@ -19,10 +19,6 @@ int		is_good(t_able *table)
 		return (0);
 	else
 		return (ft_is_in(TYPE, "spdDioOuUxXc%")) ? 1 : 0;
-	//else if (ft_is_in(TYPE, "spdDioOuUxXc%"))
-	//	return (1);
-	//else
-	//	return (0);
 }
 
 int		is_neg(t_able *table)
@@ -54,7 +50,7 @@ int		is_sign(t_able *table)
 	return (0);
 }
 
-char		*zero_str(int num)
+char			*zero_str(int num)
 {
 	char	*str;
 
