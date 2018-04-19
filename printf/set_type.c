@@ -6,7 +6,7 @@
 /*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/18 22:50:28 by anazar            #+#    #+#             */
-/*   Updated: 2018/04/18 22:53:42 by anazar           ###   ########.fr       */
+/*   Updated: 2018/04/19 00:31:58 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void		set_uint(t_able *table, va_list a_list)
 		table->data.z = va_arg(a_list, size_t);
 }
 
-void	set_int(t_able *table, va_list a_list)
+void		set_int(t_able *table, va_list a_list)
 {
 	if (LENGTH == L_LONG || LENGTH == L_SIZET || TYPE == 'D')
 		table->data.ld = va_arg(a_list, long);

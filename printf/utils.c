@@ -6,7 +6,7 @@
 /*   By: anazar <anazar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/18 23:20:55 by anazar            #+#    #+#             */
-/*   Updated: 2018/04/18 23:21:32 by anazar           ###   ########.fr       */
+/*   Updated: 2018/04/19 00:32:17 by anazar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ int		is_sign(t_able *table)
 	return (0);
 }
 
-char			*zero_str(int num)
+char	*zero_str(int num)
 {
 	char	*str;
 
